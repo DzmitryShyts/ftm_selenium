@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9055" started-at="2018-12-22T12:57:42Z" finished-at="2018-12-22T12:57:52Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="9055" started-at="2018-12-22T12:57:42Z" finished-at="2018-12-22T12:57:52Z">
+      <class name="com.epam.ftm.demo3.additional_po.native_page_object_with_abstract_page.YandexTest">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.epam.ftm.demo3.additional_po.native_page_object_with_abstract_page.YandexTest@46d56d67]" name="startBrowser" is-config="true" duration-ms="2967" started-at="2018-12-22T12:57:42Z" description="Start browser" finished-at="2018-12-22T12:57:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method name="addImplicitly" signature="addImplicitly()[pri:0, instance:com.epam.ftm.demo3.additional_po.native_page_object_with_abstract_page.YandexTest@46d56d67]" is-config="true" status="PASS" duration-ms="2542" finished-at="2018-12-22T12:57:48Z" started-at="2018-12-22T12:57:45Z" depends-on-methods="com.epam.ftm.demo3.additional_po.native_page_object_with_abstract_page.YandexTest.startBrowser" description="Add implicite wait and maximize window">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addImplicitly -->
+        <test-method status="PASS" signature="loginToYandex()[pri:0, instance:com.epam.ftm.demo3.additional_po.native_page_object_with_abstract_page.YandexTest@46d56d67]" name="loginToYandex" duration-ms="2818" started-at="2018-12-22T12:57:48Z" description="Login to Yandex account" finished-at="2018-12-22T12:57:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToYandex -->
+        <test-method status="PASS" signature="stopBrowser()[pri:0, instance:com.epam.ftm.demo3.additional_po.native_page_object_with_abstract_page.YandexTest@46d56d67]" name="stopBrowser" is-config="true" duration-ms="708" started-at="2018-12-22T12:57:51Z" description="Stop Browser" finished-at="2018-12-22T12:57:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopBrowser -->
+      </class> <!-- com.epam.ftm.demo3.additional_po.native_page_object_with_abstract_page.YandexTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
